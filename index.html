@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe ID</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <form>
+                <img src="./assets/images/лого.jpeg" alt="logo">
+                <p class="heading">Зарегистрироваться</p>
+                <input type="text" placeholder="Имя" id="name">
+                <input type="text" placeholder="Фамилия" id="surname"> <br>
+                <input type="email" placeholder="Адрес электронной почты" id="email"> <br>
+                <input type="password" placeholder="Пароль" id="password"> <br>
+                <select name="country" id="country">
+                    <option value="">Россия</option>
+                    <option value="">Украина</option>
+                    <option value="">Беларусь</option>
+                </select>
+                <p class="birthday">Дата рождения</p>
+                <select name="day" id="day">
+                    <option value="" disabled selected="selected">День</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <select name="month" id="month">
+                    <option value="" disabled selected="selected">Месяц</option>
+                    <option value="">Январь</option>
+                    <option value="">Февраль</option>
+                    <option value="">Март</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="" disabled selected="selected">Год</option>
+                    <option value="">1987</option>
+                    <option value="">1988</option>
+                    <option value="">1989</option>
+                </select>
+                <div class="inform"><a href="#">Семейство компаний Adobe</a> хотело бы информировать вас о продуктах и
+                    услугах с помощью
+                    <a href="#">персонализированных</a> электронных писем. Чтобы узнать больше, см. нашу <a
+                        href="#">Политику
+                        конфиденциальности.</a>
+                </div>
+                <div class="e-check"><input type="checkbox" class="checkbox">
+                    <p class="emailcheckbox">Свяжитесь со
+                        мной по электронной
+                        почте</p>
+                </div>
+            </form>
+            <p class="register">Нажимая кнопку «Зарегистрироваться», я соглашаюсь с тем, что мной прочитаны и приняты <a
+                    href=""> Условия
+                    использования.</a></p>
+            <button id="registerbutton" onclick="checkForm()">Зарегистрироваться</button>
+            <p class="register">У вас уже есть Adobe ID? <a href="#">Войти</a> </p>
+            <div id="form_error"></div>
+
+
+
+
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

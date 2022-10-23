@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.inner-container{
+    margin: auto;
+    background-color: #fff;
+    width: 412px;
+    height: 591px;
+    box-shadow: 0 0 0 32px #fff;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+}
+
+@font-face {
+    font-family: Adobe clean, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/fonts/AdobeCleanLight.otf);
+}
+
+body {
+    font-family: Adobe clean, sans-serif;
+}
+
+.heading {
+    font-size: 28px;
+    color: #323232;
+    font-weight: 300;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 60px;
+    margin-left: -9px;
+    margin-top: -20px;
+    margin-bottom: 8px;
+}
+input {
+    padding-left: 1px;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 500;
+    height: 28px;
+    margin-bottom: 10px;
+    color: #505050;
+}
+
+#name, #surname {
+    width: 48%;
+}
+
+#name, #day, #month {
+    margin-right: 12px;
+}
+
+#password, #email, #country {
+    width: 100%;
+}
+
+select {
+    height: 28px;
+    outline: none;
+}
+
+#country, #day, #month, #year {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    
+}
+
+.birthday {
+    margin: 10px 0px;
+    color: #505050;
+    margin-top: 15px;
+}
+
+#day, #year {
+    width: 25%;
+    color: #626262d6;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#month {
+    width: 42%;
+    color: #626262d6;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #1473e6;
+}
+
+button {
+    background-color: #1473e6;
+    color: #fff;
+    height: 32px;
+    border-radius: 16px;
+    font-weight: 700;
+    padding: 0px 16px;
+    border: none;
+    font-size: 14px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.inform, .register, .emailcheckbox {
+    font-size: 14px;
+    color: #505050;
+    line-height: 20px;
+}
+
+.emailcheckbox {
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.e-check {
+    display: flex;
+    align-items: top;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1564c5;
+}
+
+input:focus {
+    border-color: #1564c5;
+    color: black;
+    
+}
+
+#form_error {
+    color: red;
+    font-size: 14px;
+}
+
+
+
+
+
